@@ -1,0 +1,756 @@
+body{
+  overflow-x: hidden!important;
+  
+
+}
+#logo-mobile{
+  display: block;
+  width: 100px;
+
+}
+   
+.mobile-container {
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+  color: white;
+  border-radius: 0px;
+  position: relative;
+  background-color: #fc8817;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: rgba(0, 0, 0, 0);
+  display: block;
+  position: absolute;
+  right: 0;
+  
+  top: 10%;
+}
+
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0);
+  color: black;
+}
+
+.active {
+  background-color: rgba(76, 175, 79, 0);
+  color: white;
+}
+.footercreditsmy{
+  position:bottom;
+}
+     
+
+.top-nav-custom{
+  
+  background: rgba(68, 68, 68, 0);
+  width: 100%;
+  display: inline;
+position: absolute;
+  height:auto;
+  border-bottom: 2px solid rgb(255, 255, 255);
+z-index: 2;
+}.top-nav-custom a:hover {color: #fc8817;
+text-decoration: none;
+
+}
+#navmenu{
+margin-right: 0%;
+padding-right:0;
+margin-bottom:-2%;
+
+
+}
+nav {
+  padding: 3%;
+  font-weight: 600;
+  
+  }
+ nav ul {
+  
+  margin-left:0%;
+ }
+ nav ul li {
+   
+  display: inline-block;
+  list-style-type: none;
+  margin: 2%;
+  
+ }
+ nav a{
+   display: block;
+      font-size: 18px;
+   color: white;
+ }
+ .active{
+   color:#fc8817;
+border-bottom:2px solid white;
+ }
+ .searchicon{
+   border-left: 2px solid white;
+   padding-top: 1%;
+   margin-left: -5%;
+   margin-top: 2%;
+   margin-bottom: 1%;
+ }
+ .searchicon img{
+  width: 40px;
+  padding: 0%;
+  margin-top: -5%;
+  
+ }
+/*Our Services Section*/
+#img001{
+  width:180px; margin-top:-50%;margin-bottom: -40%; 
+  align-self: center;
+}
+.section-3-page1{
+   background-image: url(/img/background5.jpg);
+    background-size: cover;
+    height: 560px;
+}
+#header-section-3{
+    color: white;
+    align:center;
+    margin-top: 5%;
+    
+}
+
+#header-section-3 h1{
+font-weight: 800;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 2%;
+align-items: center;
+}
+#section3-box {
+  
+    box-sizing: border-box;
+  width: auto;
+  height: 250px;
+  padding: 5%;  
+  border: 5px solid#fc8817;
+    color: white;
+align-content: center;
+background: rgba(0, 0, 0, 0.411);  
+font-size: 10px;
+margin: auto;
+}
+button{
+  
+  margin: 4px 2px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding:2px 5px;
+  color: white;
+  cursor: pointer;
+}
+.service-button{
+  background-color:#fc8817; 
+  font-size: 16px;
+   color: rgb(73, 39, 0);
+   font-size: 25px;
+   font-weight:bold;
+   margin-top: 4%; 
+   border-radius: 12px;
+
+}
+.appointment-button{
+  background-color: #080808;
+  border-radius: 8px;
+  font-weight:100;
+}
+/* experience field*/
+.section4-page1{
+  height:230px;
+  background-color:#fc8817;
+  padding: 1%;
+  color: #4d2b09;
+  font-weight: bolder;
+  font-size: 20px;
+  position: relative;
+  
+}
+/*top most bar */
+.top-section {
+   
+    font-size: 18px;
+    height: 80px;
+    background:#fc8817;
+    width: 100%;
+ }
+
+#Top-Bar{
+  box-sizing: border-box;
+    background:#fc8817;
+    padding-left: 3%;
+    
+}.headsection{
+
+}#contact-number{
+font-family: Calibri;
+font-weight: bold;
+padding-top: 20px;
+font-size: 18px;
+}#mailcontact{
+    padding-left: 20%;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 15px;
+}
+#social-top{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 3%;
+}
+.footer{
+
+    background: #080808;
+}
+#emailbtnc{
+  margin-top: 0%;
+    float: left;
+    font-weight: bolder;
+    color: #4d2b09;
+    text-align: center;
+   background-color: #fc8817;
+   display: inline;
+   font-size: 14px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    cursor: pointer;
+    padding: 0%;
+}
+#emailBox{
+height: 40px ;
+background: #080808;
+color: whitesmoke;
+}
+.subletter{
+    font-weight: bolder;
+    margin-top: 5%;
+    position: relative;
+}/*section with slider */
+
+.container{
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+  }
+  .section-1-text{
+  
+  
+  }
+  .carousel-indicators{
+  margin-left: auto;
+  bottom:10%;
+  
+  }
+  #moto-slides
+  {
+  
+  width: 100%;
+  height:560px;
+  
+  float:right;
+  
+  background-image: url('./img/background1.jpg');
+  
+  }
+  #moto-slides h1{
+    margin-top: 20%;
+    margin-right: 20%;
+    float: right;
+    color: white;
+  font-size: 40px;
+  font-family: Calibri;
+  font-style: italic;
+  font-weight: 1000;
+  }
+  #moto-slides i{
+  
+  }
+  
+  #moto-slides2
+  {
+  
+  width: 100%;
+  height:560px;
+  
+  float:right;
+  
+  background-image: url('./img/background2.jpg');
+  
+  }
+  #moto-slides2 h1{
+    margin-top: 20%;
+    margin-right: 20%;
+    float: right;
+    color: white;
+  font-size: 40px;
+  font-family: Calibri;
+  font-style: italic;
+  font-weight: 1000;
+  }
+  #moto-slides2 i{
+   
+  }
+  
+  #moto-slides3
+  {
+  
+  width: 100%;
+  height:560px;
+  
+  float:right;
+  
+  background-image: url('./img/background3.jpg');
+  background-size: cover;
+  
+  }
+  #moto-slides3 h1{
+    margin-top: 20%;
+    margin-right: 20%;
+    float: right;
+    color: white;
+  font-size: 40px;
+  font-family: Calibri;
+  font-style: italic;
+  font-weight: 1000;
+  }
+  #moto-slides3 h2{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    margin-top: 25%;
+    color: white;
+    font-size: 38px;
+    position: absolute;
+    margin-left:40%;
+    padding-left: 20%;
+    margin-top: 24%;
+  }
+  /*section 2 */
+  .layer-main{
+    background-image: url("./img/background4.jpg");
+    width:100%;
+    height: 664px;
+    background-size: cover;
+    
+    
+    
+  }
+  #Header-section2{
+  background-color:#fc8817;
+  color: white;
+  text-align: center;
+  text-size-adjust: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: -4%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-size: 50px;
+  position: relative;
+  }
+  #text-section2-head H1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 15%;
+    text-align: justify;
+    
+    
+  }#Text-section2{
+    font-size: 24px;
+    color:grey;
+    margin-left: 25%;
+    line-height: px;
+    margin-left: 15%;
+    text-align: justify;
+  }#image-section-2{
+  height: 520px;
+  width: 96%;
+  margin-top: 6%;
+  
+  }
+  #Text-section3{
+    margin-top: 5%;
+    font-size: 25px;
+    margin-left: 15%;font-style: italic;
+    color:#fc8817;
+    font-weight: 500;
+    }
+    /*bottom clients*/
+  .bottomslider{
+    position: relative;
+  }
+  .certificatesgci{
+   background-image: url('/img/background5.jpg');
+   background-size: cover;
+   
+  }
+  .certificatesgci img{
+    height: 180px;
+    margin:4%;
+    
+    border:0%;
+    padding: 0%;
+   
+  }
+#certif{
+  background-color:#fc8817;
+  height:100px;
+  color: white;
+  font-weight: bolder;
+  padding:1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*footer*/
+.contactfooter{
+  background-image: url('/img/footerbg.png');
+  height: 560px;
+  background-size: cover;
+  color: white;
+  margin-top: 5%;
+  position: relative;
+  
+}
+.background-add{
+background-color:rgba(24, 16, 10, 0.918);
+height:560px;
+}
+.footerRowOne{
+  height: 50px;position:relative;
+  
+}
+.textfooter{position:relative;
+margin-top:2%;
+box-sizing: border-box;
+background-color: rgba(112, 91, 62, 0.397);
+font-size: 19px;
+color: rgba(255, 255, 255, 0.753);
+align-self: center;
+height: 80px;
+padding-bottom: 7%;
+}
+.secondRowFooter{
+  position:relative;
+  margin-top:5%;
+  font-size: 25px;
+  text-align: justify;
+
+}
+.secondRowFooter h1{
+  color: #fc8817;
+  font-weight: 500;
+
+}
+.secondRowFooter a{
+  color: rgba(255, 249, 231, 0.822);
+  align-content: center;
+}
+.quicklinkFooter{
+line-height: 60px;
+
+}
+.latestNews-Col{
+  width:20%;
+  text-align: left;
+  line-height: 60px;
+}
+.footercreditsmy{
+  background: #080808;
+  color: white;
+}
+
+
+
+    .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@media only screen and (max-width: 768px){
+  #image-section-2{
+    display:none;
+  }
+}
+    @media only screen and (max-width: 1000px) {
+      #Text-section2{
+        margin: auto;
+        width: 90%;
+      }
+     .motoslides h1{
+      padding-top:50%;
+      text-align: center;
+
+        }
+        .layer-main{
+          widows: 100%;
+          text-align:center;
+          height:auto;
+          }
+          
+          .serviceclass{
+            display: block;
+            margin: auto;
+                }        
+    }
+ @media only screen and (min-width: 1000px) 
+{
+div.mobile-container{
+  display: none;
+}
+
+}
+
+
+  @media only screen and (max-width: 1000PX) {
+       div.top-nav-custom{
+          padding: 0%;
+          color: #080808;
+        }
+        div.Top-Bar {
+          display: none;
+        }div.motoslides{
+          color: #080808;
+            }
+          div.layer-main{
+            widows: 100%;
+            text-align:center;
+            height:50px;
+          
+          }.serviceclass{
+          display: block;
+          margin: auto;
+              }      
+              .top-nav-custom{
+                display: none;
+              }
+            
+            }
+/* About Us page css*/
+
+.sec-abt{
+  background-image: url(/img/background1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 560px;
+  color: white;
+  position: relative;
+  z-index: -1;
+  
+  margin-top: -2%;
+  }
+  #sec-abt-1 h1{
+      padding-top:490px;
+      font-size:45px;
+      position: relative;
+      text-align: center;
+  }
+  .sec-abt-2{
+      box-sizing: border-box;
+      margin-top:-1%;
+      background: rgb(240, 234, 234);
+      position: relative;
+      text-align: center;
+      border-top: 1px solid rgb(102, 95, 95);
+      padding:2%;
+      font-size: 16px;
+      font-weight: 560;
+      z-index: 1;
+  }
+  .sec-abt-2 a{
+      color: #fc8817;
+  }
+  
+  
+  .sec-abt-3{
+  padding-left:15%;
+  padding-top:5%;
+  position: relative;
+  margin-bottom: 0px;
+   padding-right: 5%;
+  }
+  .sec-abt-3-Text h1{
+      font-weight: bold;
+      text-align: left;
+      color:black;
+      position: relative;
+  }
+  .sec-abt-3-Text{
+      box-sizing: border-box;
+      color: black;
+      font-size: 18px;
+      text-align: justify;
+      position: relative;
+      font-weight: 100;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .sec-abt-pic1 img{
+  padding-left: 3%;
+  width:500px;
+  position: relative;
+  }
+  #sec-abt-misvis{
+    
+      background-image: url('/img/sec-4-image.png');
+      min-height: 500px;
+      background-size: cover;
+  }
+  
+  .sec-abt-mison{
+  
+  padding-top:0%; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+   
+   
+  }
+  #sec-abt-misvis-layer1{
+      background: white;
+      margin-left:10%;
+      margin-top:5%;
+      margin-right:10%;
+      margin-bottom:5%;
+     font-weight: 500;
+     font-size: 18px; 
+  }
+  #sec-abt-misson-box1{
+     padding-left:4%;
+  }
+  #sec-abt-misson-box1 h1{
+      color: #fc8817;
+      text-align: center;
+      font-size: 30px;
+      margin-right:0;
+      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  #btn-sec-abt-misson-box1{
+      position: relative;
+      float: right;
+      background-color: #fc8817;
+      border-radius: 15px;
+      font-weight: 500;
+      width: 150px; 
+      top:-10px;
+      
+  }
+  #sec-abt-misson-box2{  
+  margin-left:0;
+  padding-left:0;
+  }#sec-abt-misson-box2 img{
+      width:100%;
+  }#sec-abt-misson-box3{
+      padding-right:0;
+  }#sec-abt-misson-box3 img{
+      width: 100%;
+  }#sec-abt-misson-box4{
+      padding-right:3%;
+      padding-left:2%;
+  }
+  #sec-abt-misson-box4 h1{color: #fc8817;
+      text-align: center;
+      font-size: 30px;
+      margin-right:0;
+      font-weight: 700;  
+  }
+  .abt-qlty-policy{
+      background: white;
+  
+  }
+  .abt-qlty-policy-head h1{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  }
+  .abt-qlty-policy-head{
+      background: #fc8817;
+      margin-top:5%;
+      padding:1%;
+      padding-left: 10%;
+      color: white;
+      
+  }
+  #abt-qlty-policy-boxes{
+  background-color:rgba(223, 206, 174, 0.377); 
+  padding-top:15px;
+  padding-left:9%;
+  padding-right:5%;
+  line-height: 4ch;
+  font-size:18px;
+  font-weight: 500;
+  padding-bottom: 4%;  
+  }
+  #abt-qlty-policy-box2{
+      background-color: transparent;
+      font-weight: 400;   
+  }
+  #abt-qlty-policy-box2 li{
+  font-size: 30px;;
+  color: #fc8817;
+  font-weight: 700;
+  padding-top:1%; 
+  background-color: transparent;
+  }
+  #abt-qlty-policy-box2 p{
+      font-size: 18px;
+      color: black;
+      font-weight:400;
+  }
+  #abt-chairman-msg{
+   padding-left: 10%;
+   padding-right:10%;
+   padding-top:3%;
+   text-align:justify;  
+  }
+  #abt-chairman-msg img{
+      display: inline-block;
+      width:480px;
+      margin-right: 5ch;
+     float: left;
+      
+  }
+  #abt-chairman-msg p{
+   font-size: 18px;
+   line-height: 4ch;
+  
+  }
+  #abt-chairman-msg h1{
+      color: #fc8817;
+      font-weight: 600;
+  }
