@@ -608,17 +608,18 @@ div.mobile-container{
   
   
   .sec-abt-3{
-  padding-left:15%;
-  padding-top:5%;
+  padding-left:10%;
+  padding-top:3%;
   position: relative;
-  margin-bottom: 0px;
-   padding-right: 5%;
+  margin-bottom: 50px;
+   padding-right: 0%;
   }
   .sec-abt-3-Text h1{
       font-weight: bold;
       text-align: left;
       color:black;
       position: relative;
+      padding-bottom: 3%;
   }
   .sec-abt-3-Text{
       box-sizing: border-box;
@@ -631,14 +632,17 @@ div.mobile-container{
   }
   .sec-abt-pic1 img{
   padding-left: 3%;
-  width:500px;
+  width:100%;
   position: relative;
+  padding-top:5%;
   }
   #sec-abt-misvis{
     
       background-image: url('/img/sec-4-image.png');
       min-height: 500px;
       background-size: cover;
+      text-align: center;
+      text-align: justify;
   }
   
   .sec-abt-mison{
