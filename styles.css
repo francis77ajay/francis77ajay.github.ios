@@ -203,26 +203,31 @@ button{
 #Top-Bar{
   box-sizing: border-box;
     background:#fc8817;
-    padding-left: 3%;
+    padding-left: 6%;
+    margin-right:0;
+    width: 100%; 
     
-}.headsection{
-
 }#contact-number{
 font-family: Calibri;
 font-weight: bold;
 padding-top: 20px;
 font-size: 18px;
+
 }#mailcontact{
-    padding-left: 20%;
+    padding-left: 10%;
     font-weight: bold;
     padding-top: 20px;
     font-size: 15px;
+
 }
 #social-top{
     padding-top: 10px;
     font-weight: bold;
     font-size: 15px;
-    padding-left: 3%;
+    padding-left: 13;
+    margin-right: -20%;
+
+    
 }
 .footer{
 
@@ -254,7 +259,7 @@ color: whitesmoke;
     position: relative;
 }/*section with slider */
 
-.container{
+#slidesOfHome-gci{
     width: 100%;
     margin-left: 0%;
     padding-left: 0px;
