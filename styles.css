@@ -1,7 +1,8 @@
 body{
   overflow-x: hidden!important;
-  
-
+}
+.container{
+  width: 100%;
 }
 #logo-mobile{
   display: block;
@@ -512,6 +513,9 @@ line-height: 60px;
   #image-section-2{
     display:none;
   }
+  #sec-abt-misson-box3-img,#sec-abt-misson-box2-img{
+    display: none;
+  }
 }
     @media only screen and (max-width: 1000px) {
       #Text-section2{
@@ -666,7 +670,7 @@ div.mobile-container{
   }
   #btn-sec-abt-misson-box1{
       position: relative;
-      float: right;
+      
       background-color: #fc8817;
       border-radius: 15px;
       font-weight: 500;
@@ -677,20 +681,24 @@ div.mobile-container{
   #sec-abt-misson-box2{  
   margin-left:0;
   padding-left:0;
-  }#sec-abt-misson-box2 img{
+  }#sec-abt-misson-box2-img{
       width:100%;
   }#sec-abt-misson-box3{
       padding-right:0;
+      height: auto;
+      background: #fc8817;
   }#sec-abt-misson-box3 img{
       width: 100%;
+      height: 260px;
   }#sec-abt-misson-box4{
       padding-right:3%;
-      padding-left:2%;
+      padding-left:4%;
   }
   #sec-abt-misson-box4 h1{color: #fc8817;
       text-align: center;
       font-size: 30px;
       margin-right:0;
+      
       font-weight: 700;  
   }
   .abt-qlty-policy{
