@@ -144,6 +144,10 @@ background: #ebe1d8;
     height: auto;
     background-size: cover;
 }
+.footer-gci-page-layer1{
+padding-left: 9%;
+padding-right: 9%;
+}
 .footer-contact-gci-page{
 margin-left: 10%;
 background-color: rgba(83, 82, 82, 0.664);
@@ -157,15 +161,6 @@ text-align: center;
 }
 #inner-element-footer-contact-gci{
 margin-left:-8%;
-
-}
-#footer-location-gci{
-
-}
-#footer-phone-gci{
-
-}
-#footer-email-gci{
 
 }
 .footer-gci-page-layer1{
@@ -299,6 +294,9 @@ margin-right: 4%;
 }
 #text-input-con-big::placeholder{
      padding-top: 2%;
+}
+.send-message-con h1{
+color: #fc8817;
 }
 .send-message-con button{
     margin-top:5%;
