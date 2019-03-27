@@ -509,12 +509,22 @@ line-height: 60px;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+@media only screen and (max-width: 577px) {
+  #abt-chairman-msg img{
+  width: auto;
+  padding-right: 30%;
+  }
+}  
 @media only screen and (max-width: 768px){
   #image-section-2{
     display:none;
   }
   #sec-abt-misson-box3-img,#sec-abt-misson-box2-img{
     display: none;
+  }
+  #sec-abt-misvis-layer1{
+    margin-left:0!important;
+    margin-right:0%!important;
   }
 }
     @media only screen and (max-width: 1000px) {
