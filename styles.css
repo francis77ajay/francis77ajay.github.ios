@@ -511,8 +511,7 @@ line-height: 60px;
 .col-12 {width: 100%;}
 @media only screen and (max-width: 577px) {
   #abt-chairman-msg img{
-  width: auto;
-  padding-right: 30%;
+  width: 100%!important;
   }
 }  
 @media only screen and (max-width: 768px){
