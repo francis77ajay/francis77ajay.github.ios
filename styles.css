@@ -125,63 +125,8 @@ border-bottom:2px solid white;
   width:180px; margin-top:-50%;margin-bottom: -40%; 
   align-self: center;
 }
-.section-3-page1{
-   background-image: url(/img/background5.jpg);
-    background-size: cover;
-    height: 560px;
-}
-#header-section-3{
-    color: white;
-    align:center;
-    margin-top: 5%;
-    
-}
 
-#header-section-3 h1{
-font-weight: 800;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-padding-top: 2%;
-align-items: center;
-}
-#section3-box {
-  
-    box-sizing: border-box;
-  width: auto;
-  height: 250px;
-  padding: 5%;  
-  border: 5px solid#fc8817;
-    color: white;
-align-content: center;
-background: rgba(0, 0, 0, 0.411);  
-font-size: 10px;
-margin: auto;
-}
-button{
-  
-  margin: 4px 2px;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding:2px 5px;
-  color: white;
-  cursor: pointer;
-}
-.service-button{
-  background-color:#fc8817; 
-  font-size: 16px;
-   color: rgb(73, 39, 0);
-   font-size: 25px;
-   font-weight:bold;
-   margin-top: 4%; 
-   border-radius: 12px;
 
-}
-.appointment-button{
-  background-color: #080808;
-  border-radius: 8px;
-  font-weight:100;
-}
 /* experience field*/
 .section4-page1{
   height:230px;
@@ -365,7 +310,7 @@ color: whitesmoke;
   .layer-main{
     background-image: url("./img/background4.jpg");
     width:100%;
-    height: 664px;
+   
     background-size: cover;
     
     
