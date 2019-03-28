@@ -401,14 +401,41 @@ padding-top: 3%;
     border: none;
     border-radius: 0;
 }
+#pro-sec-6 img{
+    width: 100%;
+
+}
 #projects-button-gci{
     font-size: 16px;
     font-weight: 600;
     border: none;
     border-radius: 0;
-    width: 210px;
+    width: 18%;
     height: 45px;
     margin: 0 4px!important;
 }
-.pro-sec3-tabs{
+.pro-sec-6-layer{
+    
+    margin: 0;
+    padding:0;
+    padding-top:3%;
+}
+#pro-box-2{
+    
+    text-align:left;
+    
+    color: black;
+    
+    font-size:18px;
+    margin-top: -2%;
+    font-weight: 600;
+}
+#pro-box-2 my{
+    color: #fc8817;
+}
+#pro-box-2 h1{
+    font-weight: 600;
+    color: #fc8817;
+    margin-right: 5px;
+    margin-bottom:px;
 }
