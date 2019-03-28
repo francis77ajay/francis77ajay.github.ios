@@ -126,7 +126,6 @@ background: #ebe1d8;
     margin-left:0!important;
     padding-left: 2%!important;
 }
-}
 #subscribe-layer-form{
     width: 100%;    
 }
@@ -521,4 +520,29 @@ padding-top: 1%;
     padding-left:2%;
     cursor: pointer;
     font-size: 25px;
+}
+.Experience-layer-1-home{
+background: #fc8817;
+margin-top: -20px;
+border-top:1px solid rgb(185, 176, 176);
+text-align: center;
+color: black;
+padding-left: 12%;
+padding-right:9%;
+padding-bottom:3%;
+}
+.Experience-layer-1-home h1{
+    color: white;
+    font-size: 340%;
+    font-weight: 600;   
+}.Experience-layer-1-home p{
+    font-size: 150%;
+}
+.Experience-layer-1-home button{
+    background: black;
+    border-color: transparent;
+}
+.Experience-layer-1-home button:hover{
+    background: rgb(0, 0, 0);
+    color: #c4c4c4;
 }

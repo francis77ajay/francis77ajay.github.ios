@@ -150,7 +150,7 @@ border-bottom:2px solid white;
 #Top-Bar{
   box-sizing: border-box;
     background:#fc8817;
-    padding-left: 6%;
+    padding-left: 10%;
     margin-right:0;
     width: 100%; 
     
@@ -161,7 +161,7 @@ padding-top: 20px;
 font-size: 18px;
 
 }#mailcontact{
-    padding-left: 10%;
+    padding-left: 2%;
     font-weight: bold;
     padding-top: 20px;
     font-size: 15px;
@@ -171,8 +171,8 @@ font-size: 18px;
     padding-top: 10px;
     font-weight: bold;
     font-size: 15px;
-    padding-left: 13;
-    margin-right: -20%;
+    padding-left: 0;
+    
 
     
 }
