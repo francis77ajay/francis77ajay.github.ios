@@ -205,7 +205,8 @@ width: 100%;
 text-align: center;
 padding: 1%;
 background-color: #d8d7d7;
-font-size: 18px;
+font-size: 16px;
+font-weight: 600;
 }
 .con-gci-sec2 a{
 color: #fc8817;
@@ -320,6 +321,21 @@ color: #fc8817;
     padding-top:5%;
     position:absolute;
     }
+    @media only screen and (max-width: 1083px){
+        #con-col1-content-img{
+            padding: 0;
+            margin: 0;
+            width:100%;
+            float: center;
+        }
+        #con-col1-content-img img{
+            width: 40px;
+            
+        }
+        .con-colm-1{
+            height: 700px;
+        }
+    }
 @media only screen and (max-width: 768px){
     #for-mobile-sec3{
         width: 100%;
@@ -337,11 +353,21 @@ color: #fc8817;
     all: initial; 
 }
 }
+@media only screen and (max-width: 473px){
+    .subscribe-layer{
+        width: 100%;
+        margin:0;
+        padding-bottom:5%;
+        border:0;
+        display: none;
+    }
+    }
 @media only screen and (max-width: 321px){
 
     .con-colm-1{
         width: 100%;
-        padding:initial;
+        padding:0;
+        margin:0;
     }
     .con-sec3-content-layer{
         padding-left:0!important;
@@ -357,4 +383,32 @@ color: #fc8817;
     #text-input-con{
         width: 100%;
     }
+}
+
+/*Projects*/
+.background-layer-project-details{
+background-image: url('/img/project-details-bgm.png');
+background-size:cover;
+height: 330px;
+}
+.body-pro-gci{
+padding-left: 8%;
+padding-right: 7%;
+padding-top: 3%;
+}
+.active-tab{
+    background: black;
+    border: none;
+    border-radius: 0;
+}
+#projects-button-gci{
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+    width: 210px;
+    height: 45px;
+    margin: 0 4px!important;
+}
+.pro-sec3-tabs{
 }
