@@ -388,6 +388,10 @@ color: #fc8817;
         background: black;
         color: white;
         border:1px solid grey!important;
+    }.home-layer1-serv{
+    padding-bottom:5%;}
+    #home-serv-cont-boxes{
+        margin-top:2%;
     }
 }
     @media only screen and (max-width: 385px){
@@ -497,6 +501,7 @@ background-size:cover;
 padding-left:9%;
 padding-right: 6%;
 padding-top: 1%;
+
 }
 .home-layer1-serv h1{
     text-align:center;
