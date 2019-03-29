@@ -310,7 +310,7 @@ color: whitesmoke;
   .layer-main{
     background-image: url("./img/background4.jpg");
     width:100%;
-   
+    margin-bottom:6%;
     background-size: cover;
     
     
