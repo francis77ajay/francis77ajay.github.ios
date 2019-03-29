@@ -147,7 +147,7 @@ background: #ebe1d8;
 }
 .footer-gci-page-layer1{
 padding-left: 9%;
-padding-right: 9%;
+
 }
 .footer-contact-gci-page{
 margin-left: 10%;
@@ -365,7 +365,7 @@ color: #fc8817;
     }
     #footer-location-gci{
         width: 100%;
-        padding:!important;
+        
         padding-right: 11%;
     }
     #footer-phone-gci{
@@ -383,6 +383,7 @@ color: #fc8817;
     #projects-button-gci{
         width: 100%!important;
         background: black;
+        color: white;
         border:1px solid grey!important;
     }
 }
@@ -437,6 +438,7 @@ padding-top: 3%;
 .active-tab{
     background: black;
     border: none;
+    color: white;
     border-radius: 0;
 }
 #pro-sec-6 img{
